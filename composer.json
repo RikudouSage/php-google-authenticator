@@ -1,0 +1,25 @@
+{
+  "name": "rikudou/google-authenticator",
+  "type": "library",
+  "description": "Simple OTP generator compatible with Google Authenticator",
+  "homepage": "https://github.com/RikudouSage/php-google-authenticator",
+  "keywords": [
+    "authenticator",
+    "otp",
+    "totp"
+  ],
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Dominik Chrástecký"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "rikudou\\GoogleAuthenticator\\": "src/"
+    }
+  },
+  "require": {
+    "christian-riesen/base32": "^1.3"
+  }
+}
